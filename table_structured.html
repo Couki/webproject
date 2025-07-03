@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>표- 구조적 표현</title>
+    <style>
+        table, th, td {
+            border : 1px solid #ccc;
+            border-collapse : collapse;
+        }
+        th, td { padding : 10px 20px; }
+    </style>
+</head>
+<body>
+    <h3>표의 구조적인 표현</h3>
+    <table border="1">
+        <caption>과목별 추천도서</caption>
+        <thread>
+            <tr>
+                <th>과목</th>
+                <th>책제목</th>
+                <th>저자</th>
+                <th>출판사</th>
+            </tr>
+        </thread>
+        <tbody>
+            <tr>
+                <td rowspan="3">웹프로그래밍</td>
+                <td>DO it! HTML5 + CSS3 웹 표준의 정석</td>
+                <td>고경희</td>
+                <td>이지스퍼블리싱</td>
+            </tr>
+            <tr>
+                <td>모던 웹을 위한 JavaScript jQuery 입문</td>
+                <td>윤인성</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
